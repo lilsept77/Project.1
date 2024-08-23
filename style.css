@@ -37,7 +37,7 @@ button {
     border: none;
     padding: 8px 16px;
     font-size: 24px;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 a {
@@ -183,7 +183,7 @@ footer {
 
 .home_desription--button {
     max-width: 240px;
-    }
+}
 
 h1 {
     text-align: center;
@@ -229,3 +229,11 @@ footer {
 .footer_links {
     margin-bottom: 24px;
 }
+
+.home_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
